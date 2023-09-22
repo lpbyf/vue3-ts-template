@@ -1,6 +1,7 @@
 {
   "extends": "@vue/tsconfig/tsconfig.json",
   "compilerOptions": {
+    "ignoreDeprecations": "5.0",// 添加这句代码
     "allowJs": true,
     "sourceMap": true,
     "baseUrl": ".",
@@ -10,7 +11,7 @@
     "lib": ["esnext", "dom"],
     "types": [
       "@dcloudio/types",
-      "miniprogram-api-typings",
+      // "miniprogram-api-typings",
       "@uni-helper/uni-app-types",
       "@uni-helper/uni-ui-types"
     ]

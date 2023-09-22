@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const common_vendor = require("./common/vendor.js");
+const stores_index = require("./stores/index.js");
+require("./stores/modules/member.js");
 if (!Math) {
   "./pages/index/index.js";
 }
@@ -23,6 +25,7 @@ const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
 const App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/myminiprog/my-test-project/src/App.vue"]]);
 function createApp() {
   const app = common_vendor.createSSRApp(App);
+  app.use(stores_index.pinia);
   return {
     app
   };

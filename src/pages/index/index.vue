@@ -4,12 +4,14 @@
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
+    <button @click="getTodayDatAPI" type="primary" >primary</button>
   </view>
   
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { getTodayDatAPI } from '@/services/myTest'
 const title = ref('Hello')
 </script>
 
