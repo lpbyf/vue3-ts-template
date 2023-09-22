@@ -1,7 +1,9 @@
- import { http } from "@/utils/http"
+ import type { BaseData } from "@/types/sensorData"
+import { http } from "@/utils/http"
+
 
 export const getTodayDatAPI = () => {
-    return http({
+    return http<BaseData[]>({
       method: 'GET',
       url: '/api/22',
     })

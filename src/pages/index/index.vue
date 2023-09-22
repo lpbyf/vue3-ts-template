@@ -1,20 +1,24 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+import { getTodayDatAPI } from '@/services/myTest'
+const title = ref('Hello')
+
+const getTodayData = async () => {
+  const res = await getTodayDatAPI()
+  //bannerList.value = res.result
+  console.log(res);  
+}
+</script>
+
 <template>
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
-    <button @click="getTodayDatAPI" type="primary" >primary</button>
+    <button @click="getTodayData" type="primary" >primary</button>
   </view>
-  
 </template>
-
-<script setup lang="ts">
-import { ref } from 'vue'
-import { getTodayDatAPI } from '@/services/myTest'
-const title = ref('Hello')
-</script>
-
 <style>
 .content {
   display: flex;

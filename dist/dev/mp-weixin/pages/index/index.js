@@ -8,13 +8,14 @@ const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
   __name: "index",
   setup(__props) {
     const title = common_vendor.ref("Hello");
+    const getTodayDat = async () => {
+      const res = await services_myTest.getTodayDatAPI();
+      console.log(res);
+    };
     return (_ctx, _cache) => {
       return {
         a: common_vendor.t(title.value),
-        b: common_vendor.o(
-          //@ts-ignore
-          (...args) => common_vendor.unref(services_myTest.getTodayDatAPI) && common_vendor.unref(services_myTest.getTodayDatAPI)(...args)
-        )
+        b: common_vendor.o(getTodayDat)
       };
     };
   }
