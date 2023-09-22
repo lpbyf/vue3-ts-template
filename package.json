@@ -53,10 +53,13 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-3081220230817001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-3081220230817001",
     "@dcloudio/uni-ui": "^1.4.28",
+    "echarts": "^5.4.3",
     "pinia": "^2.0.35",
     "pinia-plugin-persistedstate": "^3.2.0",
+    "tslib": "^2.6.2",
     "vue": "^3.3.4",
-    "vue-i18n": "^9.4.1"
+    "vue-i18n": "^9.4.1",
+    "zrender": "^5.4.4"
   },
   "devDependencies": {
     "@dcloudio/types": "^3.3.3",

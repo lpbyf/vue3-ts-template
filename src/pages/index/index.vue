@@ -1,13 +1,15 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { getTodayDatAPI } from '@/services/myTest'
-const title = ref('Hello')
+import { ref } from "vue";
+import { getTodayDatAPI } from "@/services/myTest";
+import * as echarts from 'echarts/core';
+const title = ref("Hello");
 
 const getTodayData = async () => {
-  const res = await getTodayDatAPI()
+  const res = await getTodayDatAPI();
   //bannerList.value = res.result
-  console.log(res);  
-}
+
+  console.log(res);
+};
 </script>
 
 <template>
@@ -16,7 +18,7 @@ const getTodayData = async () => {
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
-    <button @click="getTodayData" type="primary" >primary</button>
+    <button @click="getTodayData" type="primary">primary</button>
   </view>
 </template>
 <style>
