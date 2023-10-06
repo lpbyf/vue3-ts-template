@@ -18,10 +18,27 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "3.1.1",
+  "libVersion": "",
   "appid": "wx49ca819f767b9abc",
   "projectname": "",
-  "condition": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": []
+    }
+  },
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2

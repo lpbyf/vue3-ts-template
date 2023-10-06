@@ -3,5 +3,19 @@
   "projectname": "mp-weixin-test",
   "setting": {
     "compileHotReLoad": true
-  }
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/testEcharts/testEcharts",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "libVersion": "3.1.1"
 }

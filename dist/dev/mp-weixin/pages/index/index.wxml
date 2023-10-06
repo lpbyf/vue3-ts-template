@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="/static/logo.png"/><view class="text-area"><text class="title">{{a}}</text></view><button bindtap="{{b}}" type="primary">primary</button></view>
+<view class="content"><button bindtap="{{a}}" type="primary">网络请求</button><button bindtap="{{b}}" type="primary">点击测试</button></view><my-ucharts-day-data u-i="72d13bd0-0" bind:__l="__l"/>

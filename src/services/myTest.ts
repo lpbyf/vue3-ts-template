@@ -1,4 +1,4 @@
- import type { BaseData } from "@/types/sensorData"
+import type { BaseData } from "@/types/sensorData"
 import { http } from "@/utils/http"
 
 
