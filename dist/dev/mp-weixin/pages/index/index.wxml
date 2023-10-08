@@ -1,1 +1,1 @@
-<view class="content"><button bindtap="{{a}}" type="primary">网络请求</button><button bindtap="{{b}}" type="primary">点击测试</button></view><my-ucharts-day-data u-i="72d13bd0-0" bind:__l="__l"/>
+<view class="content"><button bindtap="{{a}}" type="primary">网络请求</button><button bindtap="{{b}}" type="primary">点击测试</button></view><view class="charts-box"><qiun-data-charts wx:if="{{c}}" u-i="72d13bd0-0" bind:__l="__l" u-p="{{c}}"/></view><view class="charts-box"><qiun-data-charts wx:if="{{d}}" u-i="72d13bd0-1" bind:__l="__l" u-p="{{d}}"/></view>

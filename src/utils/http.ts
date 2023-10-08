@@ -57,7 +57,7 @@ uni.addInterceptor('uploadFile', httpInterceptor)
 type Data<T> = {
   code: string
   msg: string
-  result: T
+  data: T
 }
 // 2.2 添加类型，支持泛型
 export const http = <T>(options: UniApp.RequestOptions) => {

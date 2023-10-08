@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "qiun-data-charts": "./qiun-data-charts/qiun-data-charts"
-  }
-}

@@ -7,6 +7,4 @@ export const getTodayDatAPI = () => {
       method: 'GET',
       url: '/api/22',
     })
-    // console.log("点击了");
-    
   }

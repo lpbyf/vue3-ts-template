@@ -336,6 +336,7 @@ function getServerData() {
   chartData.value = JSON.parse(JSON.stringify(res));
   // console.log("chartData", chartData.value);
 }
+
 </script>
 
 <style scoped>

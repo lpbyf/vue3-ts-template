@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "uni-app",
   "usingComponents": {
-    "my-ucharts-day-data": "../../components/MyUchartsDayData"
+    "qiun-data-charts": "../../components/qiun-data-charts/qiun-data-charts"
   }
 }
